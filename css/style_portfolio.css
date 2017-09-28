@@ -1,0 +1,29 @@
+section 
+{
+	height: 600px;
+	background-color: red
+}
+
+section ul
+{
+	background-color: green;
+	height: 22px
+}
+
+section ul li
+{
+	float: left;
+	margin-left: 32px;
+}
+
+section ul li:first-child
+{
+	margin-left: 0px;
+	list-style-type: none
+}
+
+section ul li a
+{
+	text-decoration: none;
+	color:#9b9b9b;
+}
